@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/src/lib"
+            ],
+            "compilerArgs": [
+                "-m32",
+                "-Wall",
+                "-W",
+                "-Wstrict-prototypes",
+                "-Wmissing-prototypes",
+                "-Wsystem-headers",
+                "-g",
+                "-msoft-float",
+                "-O",
+                "-nostdinc",
+                "DUSERPROG"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c99",
+            "intelliSenseMode": "linux-gcc-x86"
+        }
+    ],
+    "version": 4
+}

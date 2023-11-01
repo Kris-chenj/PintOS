@@ -1,0 +1,11 @@
+{
+    // Your other settings
+    "C_Cpp.default.systemIncludePath": [
+        "${workspaceFolder}/src/lib/kernel",
+        "${workspaceFolder}/src/lib/user"
+    ],
+    "C_Cpp.clang_format_fallbackStyle": "GNU",
+    "files.associations": {
+        "process.h": "c"
+    } //The Pintos code is written in the GNU style
+}
